@@ -1,6 +1,8 @@
 # Compiler-implemented-in-Python
 compiler for custom made programming language minimal++
 
+Για εκτέλεση: python3  finalCode.py testX (όπου Χ= 1..9).
+
 Lexical analysis
 
     Ο λεκτικός αναλυτής καλείται ως συνάρτηση από τον συντακτικό αναλυτή. Διαβάζει γράμμα-γράμμα τον πηγαίο κώδικα και κάθε φορά που καλείται επιστρέφει την επόμενη λεκτική μονάδα 
