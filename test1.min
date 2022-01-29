@@ -1,0 +1,26 @@
+program main
+{
+	declare a,A,B;
+	function f1(in a, in b)
+	{
+		{
+			
+			b := a*b + 4;
+			return(b)
+		}
+	}
+	function f2(in a,inout b)
+	{
+		{
+			b:=a;
+			return(b)
+		}
+	}
+	{
+		a := 3;
+		A := f2(in a, inout A);
+		call f1(in a, inout A);
+		print(A);
+		print(B)
+	}
+}
